@@ -14,8 +14,8 @@
 <script>
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = { 
-        center: new kakao.maps.LatLng(33.450701, 126.570667),
-        level: 3 // 지도의 확대 레벨
+        center: new kakao.maps.LatLng(37.564213, 127.001698),
+        level: 10 // 지도의 확대 레벨
     };
 
 var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
@@ -39,7 +39,7 @@ var startDragSrc = 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/red
 var startDragImage = new kakao.maps.MarkerImage(startDragSrc, startDragSize, startDragOption);
 
 // 출발 마커가 표시될 위치입니다
-var startPosition = new kakao.maps.LatLng(33.450701, 126.570667);
+var startPosition = new kakao.maps.LatLng(37.564213, 127.001698);
 
 
 // 출발 마커를 생성합니다
@@ -83,7 +83,7 @@ var arriveDragSrc = 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/bl
 var arriveDragImage = new kakao.maps.MarkerImage(arriveDragSrc, arriveDragSize, arriveDragOption);
 
 // 도착 마커가 표시될 위치입니다 
-var arrivePosition = new kakao.maps.LatLng(33.450701, 126.572667);    
+var arrivePosition = new kakao.maps.LatLng(37.564213, 127.011698);    
 
 // 도착 마커를 생성합니다 
 var arriveMarker = new kakao.maps.Marker({  
