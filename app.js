@@ -4,10 +4,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var mainRouter = require('./routes/main')
+var mainRouter = require('./routes/main');
 var passRouter = require('./routes/pass');
-var searchRouter = require('./routes/search')
-var nearRouter = require('./routes/near')
+var searchRouter = require('./routes/search');
+var nearRouter = require('./routes/near');
 var app = express();
 
 // view engine setup
