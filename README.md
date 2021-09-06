@@ -19,10 +19,6 @@ Re-search the route by adding the desired place as a waypoint.
 + 마커를 클릭하면 해당 장소의 정보 조회 가능
 
 ## How to build
-### git clone
-
-    ~$ git clone http://khuhub.khu.ac.kr/2014104158/oss_project.git
-
 ### npm
 
     ~/oss_project$ npm install
